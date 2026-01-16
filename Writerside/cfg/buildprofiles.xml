@@ -7,6 +7,7 @@
     <build-profile instance="fms">
         <variables>
             <noindex-content>true</noindex-content>
+            <primary-color>ruby</primary-color>
         </variables>
     </build-profile>
 
