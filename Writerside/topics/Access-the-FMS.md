@@ -5,13 +5,13 @@ To access the FMS, open Chrome and navigate to [10.0.100.5:8080](http://10.0.100
 ## Navigation
 
 There are 5 tabs available:
-- Setup
+- Setup<br>
   Everything relating to setting up & configuring the FMS
-- Run
+- Run<br>
   Used to start and stop matches
-- Panel
+- Panel<br>
   Currently unused
-- Report
+- Report<br>
   Information normally used at an event such as schedules and playoff brackets. The only option we will use is WPA keys.
-- Display
+- Display<br>
   Various informational displays shown to teams. Includes team signs, timer, audience display, and field monitor.
