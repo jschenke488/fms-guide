@@ -7,8 +7,16 @@
                  start-page="Intro.md">
 
     <toc-element topic="Intro.md"/>
-    <toc-element topic="Access-the-FMS.md"/>
-    <toc-element topic="Setup-Settings.md"/>
-    <toc-element topic="Running-Matches.md"/>
-<!--    <toc-element topic="Example.md"/>-->
+    <toc-element toc-title="Lee's Summit North High School">
+        <toc-element topic="Overview.md"/>
+        <toc-element topic="Access-the-FMS.md"/>
+        <toc-element topic="Setup-Settings.md"/>
+        <toc-element topic="Running-Matches.md"/>
+    </toc-element>
+    <toc-element toc-title="Lee's Summit High School">
+        <toc-element topic="LSHS-Overview.md"/>
+        <toc-element topic="Connecting-the-Driver-Station.md"/>
+        <toc-element topic="Setting-up-a-WPA-Kiosk.md"/>
+        <toc-element topic="Setting-up-a-Field-Radio.md"/>
+    </toc-element>
 </instance-profile>
