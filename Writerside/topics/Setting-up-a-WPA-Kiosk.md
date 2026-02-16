@@ -19,13 +19,15 @@ The WPA Kiosk consists of:
 5. Extract the contents of the ZIP file to a folder on the computer. Run the executable as an administrator.
 6. Select the Ethernet adapter the dropdown menu. Click "Configure".
 7. Run the self-test
-8. Open Chrome and navigate to [http://localhost](http://localhost). You should see the WPA Kiosk interface.
+8. Open Chrome and navigate to [](http://localhost). You should see the WPA Kiosk interface.
 9. Hover over the F in FRC to the right of the Vivid-Hosting logo until the text changes to "FTA". Click it to open the FTA configuration page.
 10. Click "Set Keys" and upload a CSV file in the following format:
 ```
-1730,password,1730
+1,password
+2,password
+3,password
 ```
-The first column is the team number, the second column is the WPA key (password), and the third column is the team number again.
+The first column is the team number, and the second column is the WPA key (password).
 
 11. Click "Upload". The password is `supercoolpassword`.
 12. Once the upload is complete, return to the main WPA Kiosk page.
