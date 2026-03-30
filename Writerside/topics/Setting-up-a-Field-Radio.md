@@ -13,7 +13,7 @@
 2. Connect another Ethernet cable from the DS port on the radio to a laptop.
 3. Navigate to [](http://192.168.69.1) in Chrome.
 
-   - If you cannot access the page, you may need to set a static IP on the laptop:
+   - If you cannot access the page, you may need to set a static IP on the laptop. Press Windows+R and type `ncpa.cpl` to open the network settings. Right-click on the Ethernet adapter and select "Properties". Select "Internet Protocol Version 4 (TCP/IPv4)" and click "Properties". Set the following settings:
      - IP Address: `192.168.69.2`
      - Subnet Mask: `255.255.255.0`
      - Gateway: `Leave Blank`
@@ -29,3 +29,4 @@
 **Do not set an SSID suffix!**
 
 6. Click "Configure".
+7. If you set a static IP, change it back to DHCP (obtain automatically) after the radio is configured.
