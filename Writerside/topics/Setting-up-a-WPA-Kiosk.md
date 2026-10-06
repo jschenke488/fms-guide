@@ -1,6 +1,6 @@
 # Setting up a WPA Kiosk
 
-To program robot radios to connect to the field radio, a WPA Kiosk is used. This is a computer connected to the field network that generates WPA keys and programs them into robot radios. Ideally, you should have a separate computer for the WPA kiosk.
+To program robot radios to connect to the field, a WPA Kiosk is used. This is a computer connected to the field network that generates WPA keys and programs them into robot radios. Ideally, you should have a separate computer for the WPA kiosk.
 
 ## Hardware
 

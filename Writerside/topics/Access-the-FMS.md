@@ -10,7 +10,7 @@ There are 5 tabs available:
 - Run<br>
   Used to start and stop matches
 - Panel<br>
-  Currently unused
+  Used at events for official scorers and head referee
 - Report<br>
   Information normally used at an event, such as schedules and playoff brackets. The only option we will use is WPA keys.
 - Display<br>

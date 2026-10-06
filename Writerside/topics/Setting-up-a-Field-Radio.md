@@ -9,9 +9,10 @@
 
 ## Steps
 
-1. If you are using the PoE wall adapter, connect an Ethernet cable from the PoE port on the wall adapter to RIO port on the radio. **Do not use the LAN port on the adapter.**
-2. Connect another Ethernet cable from the DS port on the radio to a laptop.
-3. Navigate to [](http://192.168.69.1) in Chrome.
+1. Download the [AP firmware](https://frc-radio.vivid-hosting.net/access-points/fms-ap-firmware-releases) and copy the checksum
+2. If you are using the PoE wall adapter, connect an Ethernet cable from the PoE port on the wall adapter to RIO port on the radio. **Do not use the LAN port on the adapter.**
+3. Connect another Ethernet cable from the DS port on the radio to a laptop.
+4. Navigate to [](http://192.168.69.1) in Chrome.
 
    - If you cannot access the page, you may need to set a static IP on the laptop. Press Windows+R and type `ncpa.cpl` to open the network settings. Right-click on the Ethernet adapter and select "Properties". Select "Internet Protocol Version 4 (TCP/IPv4)" and click "Properties". Set the following settings:
      - IP Address: `192.168.69.2`
@@ -19,14 +20,5 @@
      - Gateway: `Leave Blank`
      - DNS: `192.168.69.1 or Leave Blank`
 
-4. Select "Access Point Mode"
-5. Set the following settings:
-   - 2.4 GHz Wi-Fi: `Disabled`
-   - Team Number: `1730`
-   - WPA Key: `Ask a mentor`
-   - Wi-Fi Channel: `13`
-
-**Do not set an SSID suffix!**
-
-6. Click "Configure".
-7. If you set a static IP, change it back to DHCP (obtain automatically) after the radio is configured.
+5. Upload the firmware and enter the checksum
+6. Connect the RIO port on the field radio to port 1 on the field switch
